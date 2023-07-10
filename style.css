@@ -1,0 +1,50 @@
+/* Universal */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.universal-btn {
+  border-radius: 5px;
+  background: #e55473;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  padding: 10px;
+}
+/* header */
+header {
+  background-color: #e554731a;
+  height: 100vh;
+  
+}
+.head-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+  padding: 78px 85px 0px 85px;
+  margin-bottom: 0px;
+  align-items: center;
+}
+.head-title h2 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 60px;
+  font-weight: 800;
+  
+}
+.head-paragraph p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 28px 18px 28px 0px;
+}
+.head-img{
+    width: 69.9vh;
+}
