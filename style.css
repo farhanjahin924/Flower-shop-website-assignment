@@ -62,6 +62,29 @@ body {
   background-repeat: no-repeat;
   align-items: center;
 }
+.left-right{
+  padding: 100px 100px;
+    display: flex;
+    justify-content: 50%;
+    align-items: center;
+    gap: 300px;
+
+}
+
+.ex-title{
+  color: #272727;
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+}
+.ex-title2{
+  color: #272727;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 900;
+}
+
 /* Feature image */
 .image-1 {
   background-color: #a7216226;
@@ -98,6 +121,12 @@ body {
 .feature-image  {
   text-align: center;
 }
+.feature-underline{
+    text-decoration: underline;
+    color: #272727;
+    font-size: 18px;
+    font-weight: 600;
+}
 
 /* hot deals */
 .hot-deals {
@@ -105,7 +134,6 @@ body {
   padding: 100px 200px;
   align-items: center;
   background-color: #e554730d;
-  /* background-color: tomato; */
   height: 40vh;
   margin-top: 50px;
 }
