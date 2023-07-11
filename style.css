@@ -170,11 +170,12 @@ body {
 }
 
 .picture {
-  height: 250px;
+  height: 260px;
    width: 200px;
 }
 .feature-image  {
   text-align: center;
+  padding-bottom: 0px;
 }
 .feature-underline{
     text-decoration: underline;
